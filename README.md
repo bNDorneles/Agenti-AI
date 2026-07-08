@@ -39,11 +39,27 @@ Uma tarefa só pode ser alocada se o nó tiver recursos suficientes e se a latê
 
 ## Como Rodar
 
-Use Python 3. Nenhuma biblioteca externa é necessária.
+Para executar apenas o simulador de linha de comando, use Python 3. O dashboard visual usa as dependências listadas em `requirements.txt`.
 
 ```bash
 python main.py
 ```
+
+## Como Rodar o Dashboard Visual
+
+Instale as dependencias:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Execute o painel:
+
+```bash
+streamlit run dashboard.py
+```
+
+O dashboard apresenta as metricas do simulador em portugues, com cards, graficos comparativos e uma tabela detalhada das alocacoes.
 
 ## Como Rodar os Testes
 
